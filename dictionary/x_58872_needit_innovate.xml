@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="innovate" max_length="40" name="x_58872_needit_innovate" type="collection">
+    <element audit="true" label="innovate" max_length="40" name="x_58872_needit_innovate" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="New Date" max_length="40" name="u_glide_date_1" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Short Description" max_length="125" name="u_shortdescription" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Short description" max_length="125" name="u_short_description" type="string"/>
     </element>
